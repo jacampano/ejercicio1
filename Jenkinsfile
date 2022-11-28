@@ -76,7 +76,7 @@ pipeline {
 
              steps {
                     script {
-                        deploy adapters: [tomcat8(credentialsId: "tomcat", path: '', url: "http://192.168.1.101:8080/")], contextPath: "/pruebasWebApp", war: "**/*.war"
+                        deploy adapters: [tomcat9(credentialsId: "tomcat", path: '', url: "http://localhost:9999/")], contextPath: "/pruebasWebApp", war: "**/*.war"
                     }
                 }
 
