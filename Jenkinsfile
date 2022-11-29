@@ -5,7 +5,7 @@ def rama = "master"
 
 // Herramientas y servidores
 def versionJDK = "JDK11"
-def versionMaven = "Maven-3.8.5"
+def versionMaven = "Maven-3.8.6"
 
 
 def realizarCompilacion = true
